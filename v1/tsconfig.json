@@ -1,0 +1,13 @@
+{
+  "extends": "./../wiki-tsconfig.json",
+  "compilerOptions": {
+    "outDir": "./../lib/v1",
+    "rootDir": "./src/",
+    "baseUrl": "./src/",
+    "paths": {
+      "@/*": ["./*"]
+    }
+  },
+  "typeRoots": ["node_modules/@types"],
+  "include": ["./src/**/*"]
+}

@@ -4,6 +4,7 @@ logs
 npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
+tsconfig.tsbuildinfo
 
 # Runtime data
 pids
@@ -57,5 +58,9 @@ typings/
 # dotenv environment variables file
 .env
 
+# pm files
 package-lock.json
+yarn.lock
 
+# Build output
+lib
