@@ -269,6 +269,7 @@ function parseImage(imageElement, imageSide) {
 
     return null;
 }
+
 function extractMainImageFromInfobox(mainElement) {
     var infoboxes = mainElement.getElementsByClassName("infobox");
     if (infoboxes.length > 0) {

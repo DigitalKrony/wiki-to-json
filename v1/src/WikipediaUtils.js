@@ -50,4 +50,5 @@ var wikiUtils = {
         return target.split(search).join(replacement);
     }
 }
+
 module.exports = wikiUtils;
